@@ -1,0 +1,139 @@
+
+{
+  "start": {
+    "text": "You're standing on the side of a dusty road on Earth, {name}. A strange spaceship hums above you. A hatch opens.",
+    "choices": {
+      "a": {
+        "desc": "Enter the spaceship.",
+        "next": "spaceship"
+      },
+      "b": {
+        "desc": "Run away from the spaceship.",
+        "next": "run_away"
+      }
+    }
+  },
+  "spaceship": {
+    "text": "You step inside and are greeted by a sarcastic robot. He offers you a seat.",
+    "choices": {
+      "a": {
+        "desc": "Take a seat.",
+        "next": "galaxy_jump"
+      },
+      "b": {
+        "desc": "Insult the robot.",
+        "next": "airlock"
+      }
+    }
+  },
+  "run_away": {
+    "text": "You run down the road. A massive shadow blocks the sky — Earth is being demolished.",
+    "choices": {
+      "a": {
+        "desc": "Keep running.",
+        "next": "crushed"
+      },
+      "b": {
+        "desc": "Lie down and accept your fate.",
+        "next": "crushed"
+      }
+    }
+  },
+  "galaxy_jump": {
+    "text": "You warp into deep space and find yourself near a bizarre, bureaucratic alien planet.",
+    "choices": {
+      "a": {
+        "desc": "Land on the planet.",
+        "next": "alien_bureaucracy"
+      },
+      "b": {
+        "desc": "Fly past it.",
+        "next": "black_hole"
+      }
+    }
+  },
+  "airlock": {
+    "text": "The robot glares and presses a button. You’re sucked into the vacuum of space.",
+    "choices": {}
+  },
+  "crushed": {
+    "text": "A construction fleet demolishes Earth. You are no more. Should have gotten on the ship.",
+    "choices": {}
+  },
+  "alien_bureaucracy": {
+    "text": "You're forced to fill out 42 forms before being allowed to breathe. You die of paperwork. Or do you?",
+    "choices": {
+      "a": {
+        "desc": "Forge the documents.",
+        "next": "paperwork_escape"
+      },
+      "b": {
+        "desc": "Ask for a supervisor.",
+        "next": "alien_arrest"
+      }
+    }
+  },
+  "black_hole": {
+    "text": "You dodge the planet but get pulled into a black hole. Strangely peaceful, really.",
+    "choices": {
+      "a": {
+        "desc": "Accept fate and meditate.",
+        "next": "zen_singularity"
+      },
+      "b": {
+        "desc": "Attempt emergency wormhole jump.",
+        "next": "wormhole_escape"
+      }
+    }
+  },
+  "paperwork_escape": {
+    "text": "Your forged documents get you access to the elite alien lounge. A portal opens behind the bar.",
+    "choices": {
+      "a": {
+        "desc": "Enter the portal.",
+        "next": "quantum_pub"
+      },
+      "b": {
+        "desc": "Steal alien currency and run.",
+        "next": "galactic_chase"
+      }
+    }
+  },
+  "alien_arrest": {
+    "text": "The supervisor turns out to be an AI judge. You are found guilty of sarcasm and sentenced to eternal community service.",
+    "choices": {}
+  },
+  "zen_singularity": {
+    "text": "You merge with the quantum consciousness. Everything makes sense, briefly. Then you cease to exist.",
+    "choices": {}
+  },
+  "wormhole_escape": {
+    "text": "You barely escape through a wormhole and land in a dimension made entirely of cats.",
+    "choices": {
+      "a": {
+        "desc": "Pet the cats.",
+        "next": "cat_god"
+      },
+      "b": {
+        "desc": "Run away screaming.",
+        "next": "cat_scratch_fever"
+      }
+    }
+  },
+  "quantum_pub": {
+    "text": "You’re served a drink that exists in all states simultaneously. You both enjoy it and regret it.",
+    "choices": {}
+  },
+  "galactic_chase": {
+    "text": "Security drones chase you through 5 solar systems. You escape… but now you're the most wanted lifeform in the galaxy.",
+    "choices": {}
+  },
+  "cat_god": {
+    "text": "The cats crown you their god. You live forever in a palace of purring and existential dread.",
+    "choices": {}
+  },
+  "cat_scratch_fever": {
+    "text": "The cats attack. Turns out they don’t like being disrespected. You die buried in fluff and claws.",
+    "choices": {}
+  }
+}
