@@ -1,6 +1,6 @@
 # Galactic Hitchhiker
 
-#### Video Demo: <>
+#### Video Demo: <https://youtu.be/tbBxGO1HGSw>
 
 #### Description:
 
