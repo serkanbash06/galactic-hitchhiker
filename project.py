@@ -2,7 +2,7 @@ import json
 from colorama import init, Fore, Style
 
 #hello hello
-
+#fork
 init(autoreset=True)
 
 def load_story(filename):
@@ -82,4 +82,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
